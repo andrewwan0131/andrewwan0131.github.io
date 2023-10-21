@@ -1,0 +1,129 @@
+
+body {
+	margin: 0;
+	background: #000000;
+	font-family: 'Raleway', sans-serif;
+}
+
+#navbar {
+    color: white;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+    align-items: flex-start;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main {
+    margin-top: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar--text {
+    color: white;
+    padding: 20px;
+}
+
+.button--text {
+    color: white;
+    font-weight: 10;
+}
+
+.main--text {
+    margin: 0px;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+
+#section1 {
+    background-image: url('../images/background.png');
+    height: 1263px;
+    width: 100%;
+}
+
+
+#section1--menu {
+    background-image: url('../images/background.png');
+    height: 500px;
+    width: 100%;
+}
+
+#section2 {
+    margin-top: 100px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+#section2--menu {
+    background-color: white;
+    padding-top: 50px;
+    height: 1500px;
+    color: black;
+}
+
+.section2--menu_category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.menu--item {
+    width: 25.5%;
+    padding: 10px;
+    text-align: center;
+}
+
+.first--line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.category_title {
+    font-size: 30px;
+    text-align: center;
+}
+#description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#description--text {
+    color: white;
+}
+#button {
+    margin-top: 50px;
+    width: 500px;
+    padding: 18px;
+    font-size: 25px;
+    margin-bottom: 6px;
+    border-radius: 75px 75px;
+    border: 3px solid white;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+

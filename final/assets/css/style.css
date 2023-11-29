@@ -1,13 +1,35 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: pixel;
+    src: url(../fonts/PixelifySans-VariableFont_wght.ttf);
+  }
+
+.header {
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+    text-align: center;
+    background: #C4A484;
 }
 
-header, section, footer {
-    padding: 20px;
-    background-color: #f2f2f2;
-    margin-bottom: 20px;
+.title-text {
+    font-family: pixel;
+    color: black;
+    line-height: 200px;
+}
+
+.start-text {
+    color: black;
+    font-family: pixel;
+    font-size: 25px;
+}
+
+#body {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#sleeping-fox:hover {
+    cursor: grab;
 }
 
 h1, h2 {
@@ -19,4 +41,71 @@ footer {
     color: #666;
 }
 
+
 /* Add more styles as needed for your personal preference */
+
+.game {
+    width: 1000px;
+    height: 400px;
+    border: 1px solid black;
+    margin: auto;
+  }
+  
+  #fox {
+    width: 144px;
+    height: 138px;
+    background-image: url(../images/fox.png);
+    background-size: 144px 138px;
+    position: relative;
+    top: 262px;
+  }
+  
+  .jump {
+    animation: jump 0.5s linear;
+  }
+  
+  @keyframes jump {
+    0% {
+      top: 262px;
+    }
+  
+    30% {
+      top: 180px;
+    }
+  
+    50% {
+      top: 162px;
+    }
+  
+    80% {
+      top: 180px;
+    }
+  
+    100% {
+      top: 262px;
+    }
+  }
+  
+  #dog {
+    width: 141px;
+    height: 62px;
+    position: relative;
+    top: 200px;
+    left: 859px;
+  
+    background-image: url("../images/dog.png");
+    background-size: 157px 62px;
+  
+    animation: block 1s infinite linear;
+  }
+  
+  @keyframes block {
+    0% {
+      left: 859px;
+    }
+  
+    100% {
+      left: -20px;
+    }
+  }
+  
